@@ -1,0 +1,16 @@
+.konstrukt__link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 40px;
+}
+.konstrukt__link-item {
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 1.09px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.konstrukt__link:hover {
+  color: var(--color-SummerSky);
+}

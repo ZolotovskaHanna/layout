@@ -1,0 +1,23 @@
+@font-face {
+    font-display: swap;
+    font-family: 'BebasNeueBold';
+    font-weight: 400;
+    src: url('../../fonts/BebasNeueBold.woff2') format('woff2'),
+          url('../../fonts/BebasNeueBold.woff') format('woff'),
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'OpenSans';
+    font-weight: 400;
+    src: url('../../fonts/OpenSans-Regular.woff2') format('woff2'),
+         url('../../fonts/OpenSans-Regular.woff') format('woff'),
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'OpenSans';
+    font-weight: 700;
+    src: url('../../fonts/OpenSans-Bold.woff2') format('woff2'),
+          url('../../fonts/OpenSans-Bold.woff') format('woff'),
+}

@@ -1,0 +1,18 @@
+.policy{
+    padding: 22px 0;
+    background-color: var(--color-BlackPearl);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    &__icon{
+       color: var(--color-White);
+    }
+    &__text{
+        font-size: 11px;
+        font-weight: 400;
+        letter-spacing: 0.85px;
+        color: var(--color-White);
+    }
+}

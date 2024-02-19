@@ -1,0 +1,54 @@
+.header {
+    position: relative;
+    height: 100vh;
+    background-image: url('../images/header.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &__content{
+        text-align: center;
+        &-logo {
+            position: absolute;
+            height: 23px;
+            top: 40px;
+            transform: translateX(-50%);
+            }
+        &-img{
+            height: 23px;
+        }
+        &-title {
+            padding: 381px 0 0;
+            color: var(--color-White);
+            font-family: 'BebasNeueBold', sans-serif;
+            font-size: 60px;
+            font-weight: 400;
+            letter-spacing: 5.71px;
+            text-align: center;
+            text-transform: uppercase;
+            text-shadow: 
+            -1px -1px 0 #000,
+                1px -1px 0 #000,
+            -1px  1px 0 #000,
+                1px  1px 0 #000;
+            }
+        &-text{
+            color: var(--color-White);
+            font-size: 16px;
+            font-weight: 400;
+            text-align: center;
+            }
+        &-span{
+            padding: 221px 0 71px 0;
+            text-align: center;
+            color: var(--color-White);
+            font-size: 11px;
+            letter-spacing: 5.71px;
+            font-weight: 400;
+            text-align: center;
+            text-transform: uppercase;
+            }
+    }
+}

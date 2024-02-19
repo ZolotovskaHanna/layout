@@ -1,0 +1,25 @@
+.newsletter{
+    padding: 30px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-BlackPearl);
+    &__text{
+        padding-right: 70px;
+        font-size: 22px;
+        font-weight: 700;
+        letter-spacing: 0.85px;
+        text-align: center;
+        color: var(--color-White);
+    }
+    &__input{
+        padding: 11px 98px 10px 16px;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: -1px;
+        letter-spacing: 0.07px;
+    }
+    &__button{
+        padding: 11px 48px;
+    }
+}

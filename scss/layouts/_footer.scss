@@ -1,0 +1,89 @@
+.footer{
+    padding: 42px 0 48px 0;
+    background-color: var(--color-BlackPearl2);
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 58px;
+    &__company{
+        width: 250px;
+        &-title{
+            font-size: 11px;
+            font-weight: 400;
+            letter-spacing: 0.85px;
+            color: var(--color-White);
+            text-transform: uppercase;
+            margin-bottom: 20px;
+        }
+        &-img{
+            height: 23px;
+        }
+        &-text{
+            font-size: 11px;
+            font-weight: 400;
+            line-height: 19px;
+            color: var(--color-White);
+            margin-top: 15px;
+        }
+    }
+    &__links{
+        &-title{
+            font-size: 11px;
+            font-weight: 400;
+            letter-spacing: 0.85px;
+            color: var(--color-White);
+            text-transform: uppercase;
+            margin-bottom: 10px;
+        }
+        &-items{
+            display: flex;
+            gap: 36px;
+        }
+        &-item{
+            font-size: 11px;
+            font-weight: 400;
+            line-height: 25px;
+            letter-spacing: 0.85px;
+            color: var(--color-White);
+            text-transform: uppercase;
+        }
+    }
+    &__contact {
+        width: 141px;
+        &-title {
+            font-size: 11px;
+            font-weight: 400;
+            letter-spacing: 0.85px;
+            color: var(--color-White);
+            text-transform: uppercase;
+            margin-bottom: 15px;
+        }
+        &-container{
+            display: flex;
+            flex-direction: column;
+            font-size: 11px;
+            font-weight: 400;
+            line-height: 16px;
+            letter-spacing: 0.85px;
+        }
+        &-address{
+            color: var(--color-White);
+            margin-bottom: 15px;
+        }
+        &-phone{
+            color: var(--color-White);
+            margin-bottom: 15px;
+        }
+        &-email{
+            color: var(--color-White);
+        }
+    }
+    &__socials{
+        display: flex;
+        gap: 15px;
+        &-logo img {
+            filter: brightness(0) invert(1);
+            border: 1px dashed var(--color-White);
+        }
+    }
+}

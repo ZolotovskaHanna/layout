@@ -1,0 +1,20 @@
+.build{
+    padding: 120px 0 307px 0;
+    position: relative;
+    background-image: url('../images/bg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    &__title{
+        margin-bottom: 35px;
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 36px;
+        letter-spacing: 0.15px;
+        text-align: center;
+    }
+}
